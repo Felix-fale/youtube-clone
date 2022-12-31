@@ -1,6 +1,9 @@
 import React from 'react';
 
-function Videos(props) {
+function Videos({videos}) {
+    
+    console.log(videos);
+
     return (
         <div>
             Videos
